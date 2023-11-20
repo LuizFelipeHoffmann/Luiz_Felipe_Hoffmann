@@ -1,0 +1,42 @@
+body{
+    background-image: url(a3409297.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(45, 68, 162);
+    box-shadow: black;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+.menu li{
+  
+    display: inline; 
+    margin:0 20px;  
+}
+
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+footer{
+    text-align: end;
+}

@@ -1,0 +1,86 @@
+body{
+    background-image: url(a3409297.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+     margin-top: 2%;
+
+}
+
+header{
+    background-color: rgb(45, 68, 162);
+    box-shadow: black;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+
+
+.menu li{
+  
+    display: inline; 
+    margin:0 20px;  
+}
+
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.8);
+}
+
+
+input,select, textarea, button{
+    border-radius: 5px;
+}
+
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.botao{
+    font-size: 1.2em;
+    background: grey;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+
+}
+
+footer{
+    text-align: end;
+}
+
+.bot{
+    text-align: top 2px;
+}
+
+.sub{
+    background-color: none;
+}
+.sub-alterada{
+    background-color: rgb(45, 68, 162);
+    padding: 5px 0;
+}
